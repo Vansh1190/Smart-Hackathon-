@@ -1,0 +1,128 @@
+
+        body{
+            padding: 15px;
+            height:900px;
+            background-image: linear-gradient(to right bottom, #c4afd0, #deacca, #f4aaba, #ffaca1, #ffb588, #f8c07d, #eacc77, #d7d878, #bcde8e, #a7e1a6, #9ae1bc, #97e0cf);
+            background: radial-gradient() gradient (to right,#98FB98,#000080)
+
+         }
+         .whatsappLogo{
+         
+    right: 0;
+    margin-right: 14px;
+    width: 25px;
+    width: 34px;
+         }
+         .logo{
+                 width: 75vh;;
+         }
+        
+        .cont{
+         
+            display: flex;
+            justify-content: center;
+            width: 400px;
+        }
+        .card{
+                border: 2px solid black;
+                width: 100%;
+                height: 290px;
+                background-image: linear-gradient(90deg, #0cc995 -16%,#55329C 121%, #5532a6 168%);
+    color: white;
+    text-shadow: 1px 2px 7px black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 19px 2px black;
+    
+    display: flex;
+    justify-content: center;
+
+        }
+        .buttonSubs{
+            background: red;
+            color: white;
+            padding: 6px 14px;
+            border: none;
+            font-weight: 700;
+        }
+        #subscribe{
+            background: none;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid black;
+        
+        }
+   
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav button{
+            border-radius: 10px;
+            height: 40px;
+        }
+        img{
+            width:150px    ;
+
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        .left{
+            /* align-items: center; */
+            display: flex;
+            flex-flow: column;
+            padding-left: 10px;
+        }
+        .left p{
+            margin: 2px;
+        }
+        .left h2{
+            margin: 5px;
+            height: 53px;
+        }
+        .button{
+
+        height: 43px;
+        width: 114px;
+    
+        padding: 7px;
+        font-weight: 700;
+        border-radius: 20px;
+        border: 2px;
+        color: #80deea;
+        border-style: revert;
+        border-color: #396e9a;
+        background: linear-gradient(45deg, black, transparent);
+        }
+
+        nav ul{
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row;
+        }
+        nav ul li{
+            list-style: none;
+            padding: 15px;
+        }
+
+        .dropdown button{
+            border: none;
+            background-color: transparent;
+
+        }
+        .left h2{
+            font-size: revert;
+        }
+        #hackathons{
+            display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: flex-end;
+        }
