@@ -3,8 +3,13 @@
             padding: 15px;
             height:900px;
             background-image: linear-gradient(to right bottom, #c4afd0, #deacca, #f4aaba, #ffaca1, #ffb588, #f8c07d, #eacc77, #d7d878, #bcde8e, #a7e1a6, #9ae1bc, #97e0cf);
-            background: radial-gradient() gradient (to right,#98FB98,#000080)
-
+            background: radial-gradient() gradient (to right,#98FB98,#000080);
+            padding: 15px;
+            height: 900px;
+            color: white;
+            background-image: linear-gradient(90deg , #23235f,#5e1212);
+            background: radial-gradient() gradient (to right,#98FB98,#000080);
+        
          }
          .whatsappLogo{
          
@@ -107,6 +112,9 @@
             justify-content: center;
             align-items: center;
             flex-flow: row;
+        }
+        dropdown-toggle{
+            color: white;
         }
         nav ul li{
             list-style: none;
