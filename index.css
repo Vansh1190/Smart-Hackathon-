@@ -32,6 +32,7 @@
     text-shadow: 1px 2px 7px black;
     border-radius: 15px;
     box-shadow: 1px 2px 19px 2px black;
+    overflow: hidden;
     
     display: flex;
     justify-content: center;
@@ -81,6 +82,10 @@
             margin: 5px;
             height: 53px;
         }
+        .DDwe{
+          
+
+        }
         .button{
 
         height: 43px;
@@ -112,6 +117,9 @@
             border: none;
             background-color: transparent;
 
+        }
+        #loading{
+            width: 50px;
         }
         .left h2{
             font-size: revert;
